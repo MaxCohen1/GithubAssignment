@@ -9,4 +9,9 @@ void loop() {
   delay(500);
   digitalWrite(ledPin, LOW);
   delay(500);
+  smiley();
+}
+
+void smiley(){
+  Serial.println(":)");
 }
